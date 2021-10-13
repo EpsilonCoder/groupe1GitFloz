@@ -1,0 +1,200 @@
+body {
+    margin:0;
+    padding:0;
+    background-color:#99f;
+}
+table:not(.tab) {
+    margin-top:110px;
+    width:400px;
+    height:400px;
+    background-color:skyblue;
+    border-spacing:0;
+}
+td {
+    margin:0;
+    padding:auto;
+    width:30px;
+    height:23px;
+    font-size:10px;
+    overflow:hidden;
+    text-align:center;
+    align-items: center;
+    align-content: center;
+    justify-content:center;
+    border:0.8px solid gold;
+}
+#cc {
+    background-color:green;
+}
+.tab{
+    width:60px;
+    height:60px;
+    border:1px;
+    margin:auto;
+    text-align:center;
+    border-spacing:0;
+}
+caption {
+    font-size:12px;
+    font-style:bold;
+    color:white;
+    text-shadow:3px 3px 4px black;
+}
+#p1,#p2,#p3,#p4{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center ;
+    display:flex;
+    justify-content:center;
+}
+#centr {
+    width:60px;
+    height:60px;
+    margin:auto;
+    transform:rotate(-45deg);
+    transform-origin:50% 50%;
+}
+
+#dice { 
+    position:fixed ;
+    top:10px;
+    left:10px;
+    width:82px;
+    height:82px;
+    margin:5px;
+    padding:5px;
+    border-radius:12px;
+    background-color:white;
+    border:solid 2px gray;
+}
+#dice:focus{
+    outline:none ;
+}
+img {
+    margin:0;
+    padding:0;
+    width:70px;
+    height:70px;
+}
+#tab1, #p1 {
+    background-color:#f99;
+}
+#tab2, #p2 {
+    background-color:#9f9;
+}
+#tab3, #p3 {
+    background-color:#39f;
+}
+#tab4, #p4 {
+    background-color:#fd9;
+}
+.plr1 {
+    background: radial-gradient(circle, #f99 50%, yellow 70%, silver 10%);
+}
+.plr2 {
+    background: radial-gradient(circle, #9f9 50%, yellow 70%, silver 10%);
+}
+.plr3 {
+    background: radial-gradient(circle, #39f 50%, yellow 70%, silver 10%);
+}
+.plr4 {
+    background: radial-gradient(circle, #fd9 50%, yellow 70%, silver 10%);
+}
+.plrw1{
+    background-color:red;
+}
+.plrw2{
+    background-color:green;
+}
+.plrw3{
+    background-color:blue;
+}
+.plrw4{
+    background-color:yellow;
+}
+
+.coin {
+    height:16px;
+    width:16px;
+    padding:0;   
+    margin:auto;
+    border-radius:50%;
+    text-align:center;
+    font-size:10px;
+    font-weight:bold;
+    font-style:italic;
+    color:white;    
+    display:inherit;
+    box-shadow:3px 3px 6px black; 
+}
+
+#coin11, #coin12, #coin13, #coin14 {
+    background: radial-gradient(circle, gold 5%, red 55%, silver 20%);
+}
+#coin21, #coin22, #coin23, #coin24 {
+    background: radial-gradient(circle, gold 5%, green 55%, silver 20%);
+}
+#coin31, #coin32, #coin33, #coin34 {
+    background: radial-gradient(circle, gold 5%, blue 55%, silver 20%);
+}
+#coin41, #coin42, #coin43, #coin44 {
+    background: radial-gradient(circle, gold 5%, orange 55%, silver 20%);
+}
+
+.cn {
+    height:16px;
+    width:16px;
+    padding:0;
+    margin:auto;
+    border-radius:10%;
+    text-align:center;
+    font-size:10px;
+    font-weight:bold;
+    font-style:italic;
+    color:white;
+    display:inherit;
+    box-shadow:3px 3px 6px black; 
+}
+#cn1 {
+    background: radial-gradient(circle, gold 5%, red 55%, silver 20%);
+}
+#cn2 {
+    background: radial-gradient(circle, gold 5%, green 55%, silver 20%);
+}
+#cn3 {
+    background: radial-gradient(circle, gold 5%, blue 55%, silver 20%);
+}
+#cn4 {
+    background: radial-gradient(circle, gold 5%, orange 55%, silver 20%);
+}
+
+.select_display {
+  left:45px;
+  top:150px;
+  padding:3px;
+  width:300px;
+  height:300px;
+  position:fixed;
+  text-align:center;
+  display: inline-block;
+  background-color:silver;
+  box-shadow: 0px 8px 16px 10px rgba(0,0,0,0.4);
+}
+
+.select {
+  padding:10px;
+  font-size:16px;
+  color:white;
+  border:none;
+  cursor:pointer;
+  border-radius:6px;
+  border:3px groove;
+  background-color:#4498ff;
+}
+
+.select:hover, .select:focus {
+  outline:none ;
+}
